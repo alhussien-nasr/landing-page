@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+img,
+video,
+iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 0;
+}
+
+button {
+  all: unset; /* Unsets all inherited and default styles */
+  display: inline-block; /* Makes the button behave like a block element, without disrupting layout */
+  cursor: pointer; /* Ensures the pointer cursor is shown on hover */
+}
+a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Makes the link inherit the color from its parent */
+}
+.nav,
+.footer,
+.header {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 0 150px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f9faf8;
+  padding-top: 30px;
+  gap: 20px;
+}
+.logo {
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: 700;
+}
+.link,
+.h-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 100px;
+}
+.h-section {
+  flex: 1;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.h-img {
+  flex: 1;
+  width: 100%;
+  height: 200px;
+}
+.h-section h1 {
+  font-weight: 900;
+  font-size: 48px;
+}
+.sign-up-btn {
+  margin-top: 10px;
+  text-align: center;
+  width: 100px;
+  padding: 10px;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+
+.main {
+  /* display: flex;
+    align-items: center;
+    justify-content: center;
+     */
+  text-align: center;
+  padding: 50px 0 100px 0;
+}
+.main h2 {
+  font-size: 36px;
+  font-weight: 900;
+}
+.content-box {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  color: #1f2937;
+}
+.content-box img {
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.content-items {
+  width: 150px;
+  word-wrap: break-word;
+}
+.review-box {
+  text-align: center;
+  background-color: #e5e7eb;
+  padding: 100px 200px;
+}
+.review-box p {
+  font-size: 36px;
+  color: #1f2937;
+}
+.call-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3882f6;
+  height: 200px;
+  border-radius: 10px;
+  color: #f9faf8;
+  margin: 100px 200px;
+  gap: 50px;
+}
+
+.call-box button {
+  border: 2px solid #f9faf8;
+}
+.call-box h3 {
+  font-size: 26px;
+  font-weight: 800;
+}
+.footer {
+  text-align: center;
+  padding: 50px 0;
+  color: #e5e7eb;
+
+}
